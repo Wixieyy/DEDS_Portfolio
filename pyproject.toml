@@ -1,0 +1,19 @@
+[project]
+name = "DEDS_portfolio"
+version = "0.1.0"
+description = "Portfolio for DEDS class"
+authors = [
+    {name = "Wix", email = "shendrickwilliams@gmail.com"},
+]
+dependencies = ["pandas>=2.2.3"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
